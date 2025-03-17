@@ -1,0 +1,32 @@
+.app__container {
+    gap: 2.5rem;
+
+}
+.app__container {
+    text-align: center;
+}
+.app__description{
+    margin-bottom: 1.5rem;
+}
+.app__btn{
+    display: grid;
+    grid-template-columns: repeat(2,max-content);
+    justify-content: center;
+    gap: 0.5rem;
+}
+.app__img{
+    order: -1;
+}
+
+@media screen and (min-width:700px){
+    .app__container{
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+    }
+    .app__info{
+        text-align: right;
+    }
+    .app__btn{
+        justify-content: start;
+    }
+}

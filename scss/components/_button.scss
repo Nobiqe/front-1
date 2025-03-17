@@ -1,0 +1,24 @@
+.btn{
+    display: inline-block;
+    background: var(--primary-color);
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    padding-bottom: 15px;
+    border-radius: 3rem;
+    transition: 0.3s ease;
+
+
+
+    &:hover{
+        background-color: transparent;
+        outline: 1px solid var(--primary-color);
+        color: var(--primary-color);
+        box-shadow:  0 0 11px rgb(0, 0, 0,0.1);
+        transform: translateY(-2px)
+    }
+    &__header{
+        display: none;
+
+    }
+
+}

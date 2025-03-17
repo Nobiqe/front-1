@@ -1,0 +1,19 @@
+.about__container {
+    gap: 2rem;
+}
+.about__info{
+    text-align: center;
+}
+@media screen and (min-width:700px){
+    .about__container {
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+    }
+    .about__info{
+        text-align: right;
+    }
+    .about__img{
+        order: -1;
+    }
+    
+}
